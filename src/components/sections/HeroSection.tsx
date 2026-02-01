@@ -61,14 +61,14 @@ const HeroSection = () => {
           </h2>
         </div>
 
-        <div className="relative z-20 my-6 flex gap-3 md:gap-4 items-center justify-center">
+        <div className="relative z-20 my-6 flex gap-1 sm:gap-3 md:gap-4 items-center justify-center px-4">
           {[timeLeft.days, timeLeft.hours, timeLeft.minutes, timeLeft.seconds].map((value, index) => (
             <React.Fragment key={index}>
-              <div className="bg-[#524094] rounded-2xl border-4 border-brand-pink md:w-32 md:h-24 w-16 h-14 flex items-center justify-center shadow-lg transform transition-transform hover:scale-105">
-                <span className="text-2xl md:text-[50px] font-black font-orbitron text-white">{formatNumber(value)}</span>
+              <div className="bg-[#524094] rounded-xl sm:rounded-2xl border-2 sm:border-4 border-brand-pink w-14 h-12 sm:w-16 sm:h-14 md:w-32 md:h-24 flex items-center justify-center shadow-lg transform transition-transform hover:scale-105">
+                <span className="text-xl sm:text-2xl md:text-[50px] font-black font-orbitron text-white">{formatNumber(value)}</span>
               </div>
               {index < 3 && (
-                <span className="text-3xl md:text-5xl font-black text-white px-1 md:px-2 shadow-sm">:</span>
+                <span className="text-xl sm:text-3xl md:text-5xl font-black text-white px-0.5 sm:px-1 md:px-2 shadow-sm">:</span>
               )}
             </React.Fragment>
           ))}
@@ -85,7 +85,7 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="relative z-20 flex flex-col md:flex-row gap-8 md:gap-20 text-lg md:text-xl font-orbitron bg-black/40 backdrop-blur-md px-16 py-8 rounded-[40px] border border-white/5 mt-10">
+        <div className="relative z-20 flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-20 text-base sm:text-lg md:text-xl font-orbitron bg-black/40 backdrop-blur-md px-6 sm:px-10 md:px-16 py-5 sm:py-6 md:py-8 rounded-2xl sm:rounded-[30px] md:rounded-[40px] border border-white/5 mt-10 mx-4">
           <div className="flex items-center gap-4 text-white">
             <MdCalendarMonth className="text-brand-purple text-3xl md:text-5xl" />
             <span className="tracking-wide">July 15 - 24 2026</span>

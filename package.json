@@ -7,8 +7,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+
   },
+
+  "homepage": "https://alexjmr22.github.io/BCiS26",
+
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",

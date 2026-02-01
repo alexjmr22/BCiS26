@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-oxanium: "Oxanium", sans-serif;
+  --font-aspace: "A_Space", sans-serif;
+
+  --color-brand-purple: #524094;
+  --color-brand-yellow: #FFD166;
+  --color-brand-pink: #EE92C2;
+  --color-brand-navy: #223149;
+}
+
+html {
+  scroll-behavior: smooth;
+  --scroll-offset: 0px;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-navy);
+    color: white;
+    margin: 0;
+    min-height: 100dvh;
+    font-family: var(--font-oxanium);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-orbitron);
+  }
+}
+
+@font-face {
+  font-family: 'A_Space';
+  src: url('/a-space.regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.galaxy-bg {
+  background-image: url('./assets/images/02. Fundo/Imagem_fundo.webp');
+  background-size: cover;
+  /* Changed from contain to cover for better full-page coverage */
+  background-position: top -120px center;
+  background-repeat: repeat-y;
+  /* Repete apenas verticalmente */
+  background-attachment: scroll;
+  /* Muda para scroll para acompanhar o conteúdo */
+  background-position-y: calc(-120px - var(--scroll-offset));
+
+}

@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/60">
-      <div className="flex items-center justify-between w-full px-10 py-2">
-        <a href="#hero" className="flex items-center gap-6 hover:opacity-80 transition-opacity">
+      <div className="flex items-center justify-between w-full pl-4 pr-4 md:pl-6 md:pr-10 py-2">
+        <a href="#hero" className="flex items-center gap-4 md:gap-6 hover:opacity-80 transition-opacity">
           <img src={bestLogoSC} alt="BEST Summer Course Logo" className="h-8 md:h-12 object-contain" />
           <img src={bestLogo} alt="BEST Logo" className="h-10 md:h-16 object-contain" />
         </a>

@@ -67,11 +67,11 @@ const MissionSection = () => {
 
         {/* Right Image */}
         <div className="relative mt-8 lg:mt-0">
-          <div className="absolute -inset-1 bg-white blur-xl opacity-20"></div>
+          <div className="absolute -inset-1 bg-black blur-xl opacity-40"></div>
           <img
             src={missionImage}
             alt="BEST Course Students"
-            className="relative shadow-2xl w-full h-full object-cover border border-white/10 rounded-xl"
+            className="relative shadow-2xl w-full h-full object-cover rounded-xl"
           />
         </div>
       </div>

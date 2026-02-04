@@ -37,7 +37,10 @@ const HeroSection = () => {
   return (
     <>
 
-      <section id="hero" className="relative h-screen flex flex-col items-center justify-center overflow-hidden pt-38">
+      <section
+        id="hero"
+        className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-38"
+      >
         <div className="relative z-20 text-center mb-10 px-4">
           <h1 className="
             text-[48px] md:text-[96px] 

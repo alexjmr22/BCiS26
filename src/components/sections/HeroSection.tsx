@@ -85,13 +85,13 @@ const HeroSection = () => {
           </a>
         </div>
 
-        <div className="relative z-20 flex flex-col md:flex-row gap-4 sm:gap-6 md:gap-20 text-base sm:text-lg md:text-xl font-orbitron bg-black/40 backdrop-blur-md px-6 sm:px-10 md:px-16 py-5 sm:py-6 md:py-8 rounded-2xl sm:rounded-[30px] md:rounded-[40px] border border-white/5 mt-10 mx-4">
+        <div className="relative z-20 flex flex-col lg:flex-row gap-4 sm:gap-6 lg:gap-20 text-base sm:text-lg lg:text-xl font-orbitron bg-black/40 backdrop-blur-md px-6 sm:px-10 lg:px-16 py-5 sm:py-6 lg:py-8 rounded-2xl sm:rounded-[30px] lg:rounded-[40px] border border-white/5 mt-10 mx-4">
           <div className="flex items-center gap-4 text-white">
-            <MdCalendarMonth className="text-brand-purple text-3xl md:text-5xl" />
+            <MdCalendarMonth className="text-brand-purple text-3xl lg:text-5xl" />
             <span className="tracking-wide">July 15 - 24 2026</span>
           </div>
           <div className="flex items-center gap-4 text-white">
-            <MdLocationOn className="text-brand-purple text-3xl md:text-5xl" />
+            <MdLocationOn className="text-brand-purple text-3xl lg:text-5xl" />
             <span className="tracking-wide">Coimbra, Portugal</span>
           </div>
         </div>

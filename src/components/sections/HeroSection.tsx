@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { MdLocationOn, MdCalendarMonth } from 'react-icons/md';
+import { showSoonModal } from '../ui/Loading';
 
 const HeroSection = () => {
   const targetDate = new Date('2026-07-15T00:00:00').getTime();
@@ -77,11 +78,8 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="relative z-20 my-8">
+        <div className="relative z-20 my-8" onClick={showSoonModal}>
           <a
-            href="https://forms.gle/..."
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-block px-14 py-5 bg-brand-purple text-white rounded-2xl font-black font-orbitron transition-all duration-300 hover:bg-brand-purple/80 hover:scale-105 shadow-lg border border-white/10"
           >
             APPLY NOW

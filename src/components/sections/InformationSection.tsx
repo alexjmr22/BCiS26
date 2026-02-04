@@ -64,7 +64,7 @@ const InformationSection = () => {
           {/* Botão Schedule */}
           <div className="flex flex-col items-center">
             <a
-              href="https://drive.google.com/file/d/16IWy1UmKFL1dlj8VxXYNYLD_pB6Pmq-0/view?usp=sharing"
+              href="https://drive.google.com/file/d/16IWy1UmKFL1dlj8VxXYNYLD_pB6Pmq-0/view"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"

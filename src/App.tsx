@@ -9,6 +9,8 @@ import CoreTeamSection from './components/sections/CoreTeamSection';
 import './index.css';
 import { useEffect, useRef } from 'react';
 
+import Loading from './components/ui/Loading';
+
 const App = () => {
   const scrollVelocity = useRef(0);
   const targetScroll = useRef(0);
@@ -43,6 +45,7 @@ const App = () => {
   return (
     <div className="min-h-dvh galaxy-bg text-white overflow-x-hidden">
       <Navbar />
+      <Loading />
       <main className="flex flex-col gap-20">
         <HeroSection />
         {/* Fundo atrás das seções seguintes */}

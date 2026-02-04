@@ -60,9 +60,9 @@ const MissionSection = () => {
             and unique classes.
           </div>
 
-          <button className="bg-[#524094] lg:hover:bg-[#3d2f70] text-white font-orbitron font-bold py-3 px-8 rounded-4xl text-[16px] md:text-[18px] transition-all shadow-lg">
+          {/* <button className="bg-[#524094] lg:hover:bg-[#3d2f70] text-white font-orbitron font-bold py-3 px-8 rounded-4xl text-[16px] md:text-[18px] transition-all shadow-lg">
             PHOTOS
-          </button>
+          </button> */}
         </div>
 
         {/* Right Image */}

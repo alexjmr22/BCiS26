@@ -80,7 +80,7 @@ const HeroSection = () => {
 
         <div className="relative z-20 my-8" onClick={showSoonModal}>
           <a
-            className="inline-block px-14 py-5 bg-brand-purple text-white rounded-2xl font-black font-orbitron transition-all duration-300 hover:bg-brand-purple/80 hover:scale-105 shadow-lg border border-white/10"
+            className="inline-block px-14 py-5 bg-brand-purple text-white rounded-2xl font-black font-orbitron transition-all duration-300 hover:bg-brand-purple hover:scale-105 shadow-lg border border-white/10"
           >
             APPLY NOW
           </a>

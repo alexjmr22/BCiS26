@@ -45,7 +45,7 @@ const InformationSection = () => {
           {/* Botão Survival Guide */}
           <div className="flex flex-col items-center">
             <a
-              href="https://drive.google.com/file/d/1P1Agm8kmsXa7EZYvsywfOD45tbH_l6Sf/view?usp=sharing"
+              href="https://drive.google.com/file/d/11-E_y5gg5ODmX6OpmHZOlsu96tjkEvqu/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
